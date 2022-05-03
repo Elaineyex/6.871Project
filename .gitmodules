@@ -1,0 +1,6 @@
+[submodule "dygiepp"]
+	path = dygiepp
+	url = git@github.com:adamdejl/dygiepp.git
+[submodule "PL-Marker"]
+	path = PL-Marker
+	url = git@github.com:adamdejl/PL-Marker.git
