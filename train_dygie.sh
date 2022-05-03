@@ -6,6 +6,6 @@
 
 config_name=$1
 
-allennlp train "dygie_config/radgraph_base.jsonnet" \
-    --serialization-dir "models/dygie-radgraph-base" \
+allennlp train "dygie_config/${config_name}.jsonnet" \
+    --serialization-dir "models/${config_name}" \
     --include-package dygie
