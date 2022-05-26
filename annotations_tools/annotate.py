@@ -125,18 +125,22 @@ class RadGraphLabel(str, Enum):
     CHAN_WOR = "CHAN-WOR"
     CHAN_IMP = "CHAN-IMP"
     CHAN_NC = "CHAN-NC"
-    CHAN_AP = "CHAN-AP"
-    CHAN_DISA = "CHAN-DISA"
-    CHAN_DISP = "CHAN-DISP"
+    CHAN_DEV_AP = "CHAN-DEV-AP"
+    CHAN_DEV_DISA = "CHAN-DEV-DISA"
+    CHAN_DEV_PLACE = "CHAN-DEV-PLACE"
+    CHAN_CON_AP = "CHAN-CON-AP"
+    CHAN_CON_RES = "CHAN-CON-RES"
 
 
 CHANGE_LABELS = [
     RadGraphLabel.CHAN_WOR,
     RadGraphLabel.CHAN_IMP,
     RadGraphLabel.CHAN_NC,
-    RadGraphLabel.CHAN_AP,
-    RadGraphLabel.CHAN_DISA,
-    RadGraphLabel.CHAN_DISP,
+    RadGraphLabel.CHAN_DEV_AP,
+    RadGraphLabel.CHAN_DEV_DISA,
+    RadGraphLabel.CHAN_DEV_PLACE,
+    RadGraphLabel.CHAN_CON_AP,
+    RadGraphLabel.CHAN_CON_RES,
 ]
 
 
